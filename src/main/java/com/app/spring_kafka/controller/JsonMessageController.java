@@ -21,6 +21,7 @@ public class JsonMessageController {
     }
 
 
+
     //http://localhost:8089/v1/jsonpublisher/publish
     @PostMapping("/publish")
     public ResponseEntity<String> publishJsonMsg(@RequestBody User userData){
